@@ -1,0 +1,97 @@
+* {
+    padding: 0px;
+    margin: 0px auto;
+}
+ul.group_item {
+    overflow: hidden;
+    width: 1200px;
+    margin: 0px auto !important;
+}
+ul.group_item li {
+    width: 19.5%;
+    float: left;
+    list-style: none;
+    padding: 15px;
+}
+ul.group_item a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 14px;
+    color: #333;
+}
+ul.group_item a:hover {
+    color: rgb(234, 95, 98);
+}
+ul.group_item a:last-of-type {
+    height : 40px;
+    overflow: hidden;
+}
+ul.group_item span {
+    display: block;
+    text-align: center;
+    margin-top: 21px;
+}
+ul.group_item img {
+    width : 100%;
+}
+.paniga {
+    text-align: center;
+}
+ul.group_item a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+
+/*add, edit, remove*/
+
+table.show {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top : 50px;
+    margin-bottom : 50px;
+}
+table.show th {
+    background : rgba(55, 55, 55, 0.24);
+}
+table.show th,table.show td {
+    height : 30px;
+    border: 1px solid rgba(51, 51, 51, 0.46);
+}
+table.show td a:last-of-type {
+    margin-left : 5px;
+    padding-left : 7px;
+    border-left: 1px solid rgba(51, 51, 51, 0.46);
+}
+table.popup {
+    width: 70%;
+}
+table.popup th,table.popup td {
+    height : 30px;
+}
+input {
+    height: 20px;
+    padding-left: 5px;
+}
+input#submit {
+    padding: 0px 5px;
+    cursor: pointer;
+}
+form:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.container {
+    width: 890px;
+    position: relative;
+    padding-top: 50px;
+}
+a.add {
+    position: absolute;
+    right: 0px;
+}
